@@ -1,0 +1,102 @@
+body{
+    background-color: #1366d3d0;
+    background-image: url(../assets/bgprofile.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+}
+.content
+{
+    background-image: none;
+}
+.profile_details
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:3vh 2vw;
+}
+.profile_pic
+{
+    width:200px;
+    height:200px;
+    border-radius: 150px;
+    border:5px solid white;
+}
+.profile_det_name
+{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.profile_det_tag
+{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin-top :1px;
+}
+
+.profile_aboutme
+{
+    padding:2vh 3vw;
+    background-color:#ffffff88;
+    background-blend-mode: color;
+}
+.profile_am_head
+{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:blue;
+}
+.profile_am_text
+{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.profile_skills
+{
+    background-color: #00000077;
+}
+.profile_skills h1
+{
+    color:white;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.profile_skillbox
+{
+    padding:2vh 2vw;
+    margin:2vh 2vw;
+    width: 230px;
+    display: inline-block;
+    background-color: #ffffff88;
+    height: fit-content;
+    transition-delay: 0.1s;
+    transition-duration: 2s;
+    transition: all;
+    justify-items: center;
+}
+.profile_skills li{
+    display: flex;
+    padding: 1vh 1vw;
+
+}
+.profile_skillbox h3
+{
+    color: #000000bb;
+}
+.profile_skillbox:hover
+{
+    box-shadow: #000000;
+    transform: scale(1.02);
+}
+
+.my_calender
+{
+    background-color:#ffffff44;
+}
+

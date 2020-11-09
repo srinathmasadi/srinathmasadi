@@ -1,0 +1,20 @@
+body{
+    background-color: #1366d3d0;
+    background-image: url(../assets/bgprofile.jpg);
+    background-attachment: fixed;
+    background-size:cover;  
+}
+#projects
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: 800;
+    font-size:150%;
+    position: sticky;
+    top:10px;
+    z-index: 1;
+}
+.certify_head
+{
+    background-color: #47f037;
+}

@@ -1,0 +1,98 @@
+.content{
+    background: url(../assets/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+.main-name
+{
+    font-size:20px;
+    text-align:center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top:20vh;
+}
+.main-name span
+{
+    font-size:30px;
+    color:orange;
+}
+.main-name-tag
+{
+    text-align:center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.main-name-tag span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+.container p span.cursor.typing {
+    animation: none;
+}
+@keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+}
+
+.main-buttons
+{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    align-content: space-between;
+}
+.btn-main
+{   text-align: center;
+    color: white;
+    font-family: fantasy;
+    border: 1px solid white;
+    padding:10px;
+    display: inline-block;
+    text-decoration:none;
+    margin: 0px 3vw;
+}
+@media screen and (max-width: 676px)
+{
+    .main-name
+    {
+        font-size:10px;
+    }
+    .main-name span
+    {
+        font-size:20px;
+    }
+}
+@media screen and (max-width: 448px)
+{
+    .main-name
+    {
+        font-size:8px;
+    }
+    .main-name span
+    {
+        font-size:15px;
+        display: block;
+    }
+}
+@media screen and (max-width: 334px)
+{
+    .main-name
+    {
+        font-size:1px;
+    }
+    .main-name span
+    {
+        font-size:20px;
+
+    }
+}
